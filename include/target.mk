@@ -16,7 +16,8 @@ DEVICE_TYPE?=router
 DEFAULT_PACKAGES:=base-files libc libgcc busybox dropbear mtd uci opkg netifd fstools uclient-fetch logd urandom-seed urngd \
 block-mount coremark kmod-nf-nathelper kmod-nf-nathelper-extra kmod-ipt-raw wget libustream-openssl ca-certificates \
 default-settings luci luci-app-ddns luci-app-upnp luci-app-autoreboot luci-app-webadmin \
-luci-app-filetransfer luci-app-autoreboot luci-app-vsftpd luci-app-ssr-plus luci-app-zerotier \
+luci-app-filetransfer luci-app-autoreboot luci-app-vsftpd luci-app-v2ray luci-app-zerotier luci-app-softethervpn \
+luci-app-ttyd luci-theme-argon /
 luci-app-arpbind luci-app-vlmcsd luci-app-wol luci-app-ramfree \
 luci-app-syncdial luci-app-nlbwmon luci-app-accesscontrol luci-app-cpufreq \
 ddns-scripts_aliyun ddns-scripts_dnspod
